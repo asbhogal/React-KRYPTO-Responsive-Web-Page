@@ -2,13 +2,12 @@
   "name": "react-krypto-responsive-web-page",
   "version": "1.0.0",
   "description": "A responsive web page rendered in React from a Figma mockup using assets provided by Flux Academy",
-  "main": "index.js",
+  "main": "index.jsx",
   "private": true,
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start-server": "vite",
+    "build-dev": "vite preview",
+    "build-prod": "vite build"
   },
   "repository": {
     "type": "git",
@@ -26,8 +25,6 @@
     "@vitejs/plugin-react": "^3.1.0",
     "cross-env": "^7.0.3",
     "mini-css-extract-plugin": "^2.6.1",
-    "postcss": "^8.4.19",
-    "postcss-preset-env": "^7.8.3",
     "react-refresh": "^0.14.0",
     "sass": "^1.56.1",
     "sass-loader": "^13.2.0",
