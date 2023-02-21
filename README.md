@@ -32,8 +32,8 @@ This project is in two parts:
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" alt="Figma logo" width="50" height="50" style="max-width:100%;"></a>
 
 <strong>:link: Links</strong><br>
- - <a target="_blank" href="https://oceanica.vercel.app">Oceanica - Responsive Web Page</a>
- - <a target="_blank" href="https://www.figma.com/community/file/1190467806509137896">Figma Community Project Templates</a>
+ - <a target="_blank" href="https://krypto-site.vercel.app">KRYPTO - Responsive Web Page</a>
+ - <a target="_blank" href="https://www.figma.com/community/file/1188263961246625436">Figma Community Project Templates</a>
 
 <strong>Attributions</strong>
 
