@@ -7,10 +7,10 @@ const   path = require("path"),
             new CleanWebpackPlugin(),
             new MiniCSSExtractPlugin(),
             new HTMLWebpackPlugin({
-                title: "Brand - Responsive Web Page",
+                title: "KRYPTO - Responsive Web Page",
                 author: "Aman Singh Bhogal",
-                description: "A responsive web page for Brand",
-                favicon: "./src/assets/logos/brand-icon-black.svg",
+                description: "A responsive web page for KRYPTO",
+                favicon: "",
                 template: "./src/index.html"
             }),
         ];

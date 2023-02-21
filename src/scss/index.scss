@@ -1,0 +1,10 @@
+@use './_partials/globals' as *;
+@use './_partials/mixins' as *;
+@use './_partials/responsive' as *;
+@use './_partials/typography' as *;
+@use './_partials/variables' as *;
+
+@use './_components/header' as *;
+@use './_components/container' as *;
+@use './_components/footer' as *;
+@use './_components/root' as *;
