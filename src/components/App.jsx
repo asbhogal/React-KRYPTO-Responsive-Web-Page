@@ -7,6 +7,7 @@ import "../scss/index.scss";
 const App = () => {
     return (
         <> 
+            <Header />
             <Container />
             <Footer />
         </>
