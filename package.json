@@ -7,7 +7,7 @@
   "scripts": {
     "start-server": "vite",
     "build-dev": "vite preview",
-    "build-prod": "vite build"
+    "build-prod": "vite build --emptyOutDir"
   },
   "repository": {
     "type": "git",
