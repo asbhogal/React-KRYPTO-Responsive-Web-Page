@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import { createHtmlPlugin } from "vite-plugin-html";
 import react from '@vitejs/plugin-react';
+import cleanPlugin from 'vite-plugin-clean';
 
 export default defineConfig ({
     root: 'src',
@@ -9,6 +10,7 @@ export default defineConfig ({
     },
     plugins: [
         react(),
+        cleanPlugin(),
         createHtmlPlugin({
             minify: true,
             inject: {
