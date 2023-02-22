@@ -1,7 +1,7 @@
 {
   "name": "react-krypto-responsive-web-page",
   "version": "1.0.0",
-  "description": "A responsive web page rendered in React from a Figma mockup using assets provided by Flux Academy",
+  "description": "A responsive web page rendered in React from a series of responsive Figma mockups",
   "main": "index.jsx",
   "private": true,
   "scripts": {
@@ -14,20 +14,16 @@
     "url": "git+https://github.com/asbhogal/React-KRYPTO-Responsive-Web-Page.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aman Singh Bhogal",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/asbhogal/React-KRYPTO-Responsive-Web-Page/issues"
   },
   "homepage": "https://github.com/asbhogal/React-KRYPTO-Responsive-Web-Page",
   "devDependencies": {
-    "@babel/core": "^7.20.2",
     "@vitejs/plugin-react": "^3.1.0",
-    "cross-env": "^7.0.3",
-    "mini-css-extract-plugin": "^2.6.1",
     "react-refresh": "^0.14.0",
-    "sass": "^1.56.1",
-    "sass-loader": "^13.2.0",
+    "sass": "^1.58.3",
     "vite": "^4.1.4",
     "vite-plugin-clean": "^1.0.0",
     "vite-plugin-html": "^3.2.0"
