@@ -45,7 +45,7 @@
                 height: 20px;
                 width: 20px;
                 border-radius: 50%;
-                animation: pulse-animation 1s infinite;
+                animation: pulse-animation 1.5s infinite;
             }
         }
     }
@@ -57,8 +57,11 @@
     0% {
         box-shadow: 0 0 0 0px #010922;
     }
-    100% {
+    50% {
         box-shadow: 0 0 0 7px #010922;
         filter: blur(7px);
+    }
+    100% {
+        box-shadow: 0 0 0 0px #010922;
     }
 }
