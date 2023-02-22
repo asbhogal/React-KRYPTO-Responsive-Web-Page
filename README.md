@@ -2,7 +2,7 @@
 
 <h1>React - KRYPTO Responsive Web Page</h1>
 
-
+![Project-Cover](https://github.com/asbhogal/React-KRYPTO-Responsive-Web-Page/blob/main/src/assets/GitHub%20Repo%20README%20Image%20-%20KRYPTO%20Responsive%20Web%20Page.png)
 
 </div>
 
