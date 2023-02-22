@@ -2,6 +2,9 @@
 
 <h1>React - KRYPTO Responsive Web Page</h1>
 
+![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/React-KRYPTO-Responsive-Web-Page/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/React-KRYPTO-Responsive-Web-Page?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/React-KRYPTO-Responsive-Web-Page?color=blueviolet&style=for-the-badge&labelColor=000)
+
+
 ![Project-Cover](https://github.com/asbhogal/React-KRYPTO-Responsive-Web-Page/blob/main/src/assets/GitHub%20Repo%20README%20Image%20-%20KRYPTO%20Responsive%20Web%20Page.png)
 
 </div>
