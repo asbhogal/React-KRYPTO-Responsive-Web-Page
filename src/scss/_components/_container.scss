@@ -1,0 +1,11 @@
+.MainContainer {
+    display: flex;
+    flex-direction: column;
+    > * {
+        display: flex;
+    }
+}
+
+.HeroSection {
+    flex-direction: column;
+}
