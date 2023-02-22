@@ -6,6 +6,13 @@
         width: 1110px;
         margin: 0 auto;
     }
+    .MainContainer {
+        width: 1110px;
+        margin: 0 auto;
+    }
+    .TopContent {
+        gap: 150px;
+    }
 }
 
 /****** DESKTOP - 1025px --> 1440px ******/
@@ -13,6 +20,12 @@
 @media only screen and (1025px <= width <= 1440px) {
     .Header {
         padding: 30px 150px;
+    }
+    .MainContainer {
+        padding: 0 150px;
+    }
+    .TopContent {
+        gap: 150px;
     }
 }
 
@@ -22,6 +35,12 @@
     .Header {
         padding: 32px;
     }
+    .MainContainer {
+        padding: 0 32px;
+    }
+    .TopContent {
+        gap: 150px;
+    }
 }
 
 /****** TABLET (SMALL) - 376px --> 744px ******/
@@ -30,6 +49,12 @@
     .Header {
         padding: 24px;
     }
+    .MainContainer {
+        padding: 0 24px;
+    }
+    .TopContent {
+        gap: 30px;
+    }
 }
 
 /****** MOBILE - 375px ******/
@@ -37,5 +62,11 @@
 @media only screen and (width <= 375px) {
     .Header {
         padding: 24px;
+    }
+    .MainContainer {
+        padding: 0 24px;
+    }
+    .TopContent {
+        gap: 20px;
     }
 }

@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 import { createHtmlPlugin } from "vite-plugin-html";
 import react from '@vitejs/plugin-react';
+import path from 'path';
 import cleanPlugin from 'vite-plugin-clean';
 
 export default defineConfig ({
@@ -8,6 +9,18 @@ export default defineConfig ({
     build: {
         outDir: '../dist'
     },
+    resolve: {
+        alias: {
+          '@': path.resolve(__dirname, './src'),
+        }
+    },
+    /* css: {
+        preprocessorOptions: {
+            scss: {
+                additionalData: `@import "@/scss/index.scss";`
+            }
+        }
+    }, */
     plugins: [
         react(),
         cleanPlugin(),
