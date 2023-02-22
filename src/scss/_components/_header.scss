@@ -1,0 +1,61 @@
+@use '../_partials/mixins' as *;
+@use '../_partials/variables' as *;
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    > * {
+        display: flex;
+    }
+    .HeaderNav {
+        color: $BrightGray;
+        gap: 60px;
+        @include BodyTypography;
+        .HeaderNavList {
+            gap: 60px;
+            display: flex;
+            list-style-type: none;
+        }
+        .CTAButton {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 3px;
+            height: 40px;
+            width: 115px;
+            border-radius: 20px;
+            outline: none;
+            border: none;
+            background-color: $DeepKoamaru;
+            .AnimatedPulseFront {
+                width: 10px;
+                height: 10px;
+                background-color: $Ceil;
+                border-radius: 50%;
+                filter: blur(2px);
+                position: relative;
+                left: 10px;
+            }
+            .AnimatedPulseBack {
+                position: relative;
+                transform: translateX(-8px);
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                animation: pulse-animation 1s infinite;
+            }
+        }
+    }
+}
+
+/****** KEYFRAMES ******/
+
+@keyframes pulse-animation {
+    0% {
+        box-shadow: 0 0 0 0px #010922;
+    }
+    100% {
+        box-shadow: 0 0 0 7px #010922;
+        filter: blur(7px);
+    }
+}

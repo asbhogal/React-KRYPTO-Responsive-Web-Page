@@ -1,7 +1,28 @@
-@mixin HeadingOneTypography
+@mixin HeadingOneTypography {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 110%;
+}
 
-@mixin HeadingTwoTypography
+@mixin HeadingTwoTypography {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: clamp(1.75rem, 1.1071rem + 3.2143vw, 4rem);
+    line-height: 110%;
+}
 
-@mixin SubHeadingTypography
+@mixin SubHeadingTypography {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.5px;
+    letter-spacing: 10%;
+}
 
-@mixin BodyTypography
+@mixin BodyTypography {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.5px;
+}

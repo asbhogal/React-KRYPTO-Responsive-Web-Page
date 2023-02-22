@@ -1,0 +1,32 @@
+/****** OUTFIT - 700 BOLD ******/
+
+@font-face {
+    font-family: Outfit;
+    font-weight: 700;
+    font-style: normal;
+    src:    url('../../fonts/Outfit/Outfit-Bold.woff') format('woff'),
+            url('../../fonts/Outfit/Outfit-Bold.woff2') format('woff2');
+    font-display: swap;
+}
+
+/****** OUTFIT - 400 REGULAR ******/
+
+@font-face {
+    font-family: Outfit;
+    font-weight: 400;
+    font-style: normal;
+    src:    url('../../fonts/Outfit/Outfit-Regular.woff') format('woff'),
+            url('../../fonts/Outfit/Outfit-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+/****** ROBOTO - 400 REGULAR ******/
+
+@font-face {
+    font-family: Regular;
+    font-weight: 400;
+    font-style: normal;
+    src:    url('../../fonts/Roboto/Roboto-Regular.woff') format('woff'),
+            url('../../fonts/Roboto/Roboto-Regular.woff2') format('woff2');
+    font-display: swap;
+}
