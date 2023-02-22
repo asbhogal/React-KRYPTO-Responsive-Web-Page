@@ -9,6 +9,17 @@
     font-display: swap;
 }
 
+/****** OUTFIT - 600 SEMIBOLD ******/
+
+@font-face {
+    font-family: Outfit;
+    font-weight: 600;
+    font-style: normal;
+    src:    url('../../fonts/Outfit/Outfit-SemiBold.woff') format('woff'),
+            url('../../fonts/Outfit/Outfit-SemiBold.woff2') format('woff2');
+    font-display: swap;
+}
+
 /****** OUTFIT - 400 REGULAR ******/
 
 @font-face {

@@ -3,9 +3,11 @@
 
 .Header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     > * {
         display: flex;
+        align-items: center;
     }
     .HeaderNav {
         color: $BrightGray;
@@ -21,12 +23,13 @@
             align-items: center;
             justify-content: center;
             gap: 3px;
-            height: 40px;
-            width: 115px;
-            border-radius: 20px;
+            height: 45px;
+            width: 135px;
+            border-radius: 27.5px;
             outline: none;
             border: none;
             background-color: $DeepKoamaru;
+            @include CTAButtonTypography;
             .AnimatedPulseFront {
                 width: 10px;
                 height: 10px;
