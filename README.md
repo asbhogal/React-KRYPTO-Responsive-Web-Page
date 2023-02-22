@@ -11,7 +11,7 @@ A single web page for an NFT-management platform and app called KRYPTO.
 This project is in two parts:
 
  1. A mockup of 5 responsive screens created in Figma (components and auto-layout)
- 2. A responsive webpage rendered from these mockups using React, SASS and Webpack and deployed via Vercel
+ 2. A responsive webpage rendered from these mockups using React, SASS and Vite and deployed via Vercel
 
  <strong>:heavy_check_mark: Features:</strong><br>
   - Designed from Figma mockups
