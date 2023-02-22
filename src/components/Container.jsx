@@ -1,3 +1,4 @@
+import backgroundBlurObject2 from "../assets/images/BackgroundEllipse.png";
 import heroImg from "../assets/images/HeroImg.png";
 import analyticsImg from "../assets/images/AnalyticsImg.png";
 import appImg from "../assets/images/AppImg.png";
@@ -10,13 +11,17 @@ import forbesLogo from "../assets/logos/ForbesLogo.svg";
 const Container = () => {
     return (
         <main className="MainContainer">
+        <div className="BackgroundBlurObject1"></div>
+        <img className="BackgroundBlurObject2" src={ backgroundBlurObject2 }></img>
             <section className="HeroSection">
                 <div className="TopContent">
                     <div className="LeftSideContent">
                         <h1 className="SiteHeadingOne">discover and collect <span className="AccentColor">rare</span> NFTs</h1>
                         <p className="SiteHeroParagraph">the most secure marketplace for buying and selling unique crypto assets</p>
-                        <button className="CTAButton">BUY NFTS</button>
-                        <button className="SellNFTsCTAButton">SELL NFTS</button>
+                        <div className="Buttons">
+                            <button className="CTAButton">BUY NFTS</button>
+                            <button className="SellNFTsCTAButton">SELL NFTS</button>
+                        </div>
                     </div>
                     <div className="RightSideContent">
                         <div className="RightSideImg">
@@ -34,9 +39,39 @@ const Container = () => {
                     </div>
                 </div>
             </section>
-            <section className="AnalyticsSection"></section>
-            <section className="AppSection"></section>
-            <section className="SellNFTSection"></section>
+            <section className="AnalyticsSection">
+                <div className="LeftSideContent">
+                    <img className="AnalyticsImg" src={ analyticsImg }></img>
+                </div>
+                <div className="RightSideContent">
+                    <p className="SubtitleContent">analytics</p>
+                    <h2 className="AnalyticsHeading">built-in analytics to track your NFTs</h2>
+                    <p className="AnalyticsContent">Use our built-in analytics dashboard to pull valuable insights and monitor the value of your Krypto portfolio over time</p>
+                    <button className="PricingButton">VIEW OUR PRICING</button>
+                </div>
+            </section>
+            <section className="AppSection">
+                <div className="LeftSideContent">
+                    <p className="SubtitleContent">get our app</p>
+                    <h2 className="AppHeading">browse NFTs from your smartphone</h2>
+                    <p className="AppContent">Our Krypto app is the easiest way to keep track of your assets when you’re on the go</p>
+                    <button className="AppButton">DOWNLOAD ON iOS</button>
+                </div>
+                <div className="RightSideContent">
+                    <img className="AppImg" src={ appImg }></img>
+                </div>
+            </section>
+            <section className="SellSection">
+                <div className="LeftSideContent">
+                    <img className="SellImg" src={ sellImg }></img>
+                </div>
+                <div className="RightSideContent">
+                    <p className="SubtitleContent">24&#47;7 access</p>
+                    <h2 className="SellHeading">sell your NFTs from anywhere at any time</h2>
+                    <p className="SellContent">With our easy-to-use platform, you can buy or sell assets from anywhere in the world, at any time</p>
+                    <button className="SellButton">GET STARTED</button>
+                </div>
+            </section>
             <section className="TestimonialSection"></section>
             <section className="CTASection">
                 
