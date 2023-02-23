@@ -7,20 +7,14 @@ import cleanPlugin from 'vite-plugin-clean';
 export default defineConfig ({
     root: 'src',
     build: {
-        outDir: '../dist'
+        outDir: '../dist',
+        publicDir: './src'
     },
     resolve: {
         alias: {
           '@': path.resolve(__dirname, './src'),
         }
     },
-    /* css: {
-        preprocessorOptions: {
-            scss: {
-                additionalData: `@import "@/scss/index.scss";`
-            }
-        }
-    }, */
     plugins: [
         react(),
         cleanPlugin(),
