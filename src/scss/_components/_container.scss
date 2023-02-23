@@ -72,6 +72,8 @@
         .FeaturedOnLogos {
             display: flex;
             gap: 65px;
+            flex-wrap: wrap;
+            justify-content: center;
             align-items: center;
         }
     }
