@@ -35,7 +35,7 @@ const TestimonialCard = () => {
         { testimonialData.map(user => (
             <SwiperSlide className="TestimonialCard" key={ user.id }>
                 <div>
-                    <img className="TestimonialImage" src={ `public/TestimonialImg-${ user.img }` }></img>
+                    <img className="TestimonialImage" src={ `/public/TestimonialImg-${ user.img }` }></img>
                     <div className='TestimonialBody'>
                         <p className="TestimonialQuote">{ user.description }</p>
                         <p className="TestimonialName">{ user.name }</p>
