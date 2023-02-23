@@ -10,6 +10,31 @@
     }
 }
 
+.FooterMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style-type: none;
+}
+
+.NewsletterSignUp {
+    flex-direction: column;
+    gap: 15px;
+    .NewsletterSignUpText {
+        @include BodyTypography;
+        color: $BrightGray;
+    }
+}
+
+.NewsletterSignUpForm {
+    display: flex;
+    gap: 15px;
+}
+
+.MiddleFooterColumn {
+    gap: 60px;
+}
+
 .KryptoLogo {
     height: 26px;
 }

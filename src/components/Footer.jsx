@@ -29,9 +29,11 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="RightFooterColumn NewsletterSignUp">
-                <p>join our newsletter</p>
-                <input className="NewsletterSignUpInput" placeholder="email address"></input>
-                <button className="NewsletterSignUpButton">submit</button>
+                <p className='NewsletterSignUpText'>join our newsletter</p>
+                <div className='NewsletterSignUpForm'>
+                    <input className="NewsletterSignUpInput" placeholder="email address"></input>
+                    <button className="NewsletterSignUpButton">submit</button>
+                </div>
             </div>
         </footer>
     )
