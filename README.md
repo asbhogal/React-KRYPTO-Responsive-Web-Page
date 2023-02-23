@@ -2,6 +2,8 @@
 
 <h1>React - KRYPTO Responsive Web Page</h1>
 
+![](https://api.checklyhq.com/v1/badges/checks/1d25da9e-f2a2-4580-9288-7cd740f3c908?style=for-the-badge&theme=dark) ![](https://api.checklyhq.com/v1/badges/checks/1d25da9e-f2a2-4580-9288-7cd740f3c908?style=for-the-badge&theme=dark&responseTime=true)
+
 ![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/React-KRYPTO-Responsive-Web-Page/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/React-KRYPTO-Responsive-Web-Page?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/React-KRYPTO-Responsive-Web-Page?color=blueviolet&style=for-the-badge&labelColor=000)
 
 
