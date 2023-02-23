@@ -9,6 +9,9 @@
         width: 1110px;
         margin: 0 auto;
     }
+    .HeroSection {
+        flex-direction: column;
+    }
     .TopContent {
         gap: 150px;
         > .LeftSideContent {
@@ -32,6 +35,9 @@
     .MainContainer {
         padding: 0 150px;
     }
+    .HeroSection {
+        flex-direction: column;
+    }
     .TopContent {
         gap: 150px;
         > .LeftSideContent {
@@ -54,6 +60,9 @@
     }
     .MainContainer {
         padding: 0 32px;
+    }
+    .HeroSection {
+        flex-direction: column;
     }
     .TopContent {
         gap: 150px;
@@ -86,13 +95,21 @@
     .MainContainer {
         padding: 0 24px;
     }
+    .HeroSection {
+        flex-direction: column;
+    }
     .TopContent {
+        flex-direction: column-reverse;
+        align-items: center;
         gap: 30px;
     }
     .AnalyticsSection,
     .AppSection,
     .SellSection {
         gap: 55px;
+    }
+    .Footer {
+        flex-direction: column;
     }
 }
 
@@ -106,9 +123,17 @@
     .MainContainer {
         padding: 0 24px;
     }
+    .AppSection {
+        flex-direction: column-reverse;
+    }
+    .HeroSection,
+    .AnalyticsSection,
+    .SellSection {
+        flex-direction: column;
+    }
     .TopContent {
         gap: 20px;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .Footer {
         flex-direction: column;
