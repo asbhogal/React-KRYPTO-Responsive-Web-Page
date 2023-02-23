@@ -79,7 +79,7 @@
 .ToggleActive .ToggleLine {
     &:first-child {
         transition: $Transition-03;
-        transform: rotate(45deg) translate(3.5px, 3px);
+        transform: rotate(45deg) translate(8px, 7px);
     }
     &:nth-child(2) {
         transition: $Transition-03;
@@ -87,7 +87,7 @@
     }
     &:last-child {
         transition: $Transition-03;
-        transform: rotate(-45deg) translate(2px, -2px);;
+        transform: rotate(-45deg) translate(8px, -7px);;
     }
 }
 

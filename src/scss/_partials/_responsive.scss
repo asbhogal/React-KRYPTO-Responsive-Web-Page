@@ -95,6 +95,10 @@
     .MainContainer {
         padding: 0 24px;
     }
+    .BackgroundBlurObject1 {
+        left: unset !important;
+        right: 0;
+    }
     .HeroSection {
         flex-direction: column;
     }
@@ -102,6 +106,13 @@
         flex-direction: column-reverse;
         align-items: center;
         gap: 30px;
+        .LeftSideContent {
+            align-items: center;
+            text-align: center;
+            .Buttons {
+                flex-direction: column;
+            }
+        }
     }
     .AnalyticsSection,
     .AppSection,
@@ -110,6 +121,9 @@
     }
     .Footer {
         flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
     }
 }
 
@@ -123,6 +137,10 @@
     .MainContainer {
         padding: 0 24px;
     }
+    .BackgroundBlurObject1 {
+        left: unset !important;
+        right: 0;
+    }
     .AppSection {
         flex-direction: column-reverse;
     }
@@ -134,8 +152,18 @@
     .TopContent {
         gap: 20px;
         flex-direction: column-reverse;
+        .LeftSideContent {
+            align-items: center;
+            text-align: center;
+            .Buttons {
+                flex-direction: column;
+            }
+        }
     }
     .Footer {
         flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
     }
 }
