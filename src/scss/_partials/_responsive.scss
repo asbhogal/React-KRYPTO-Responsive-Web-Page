@@ -38,6 +38,11 @@
             padding: 72px 0;
         }
     }
+    .AnalyticsSection,
+    .AppSection,
+    .SellSection {
+        gap: 150px;
+    }
 }
 
 /****** TABLET - 745px --> 1024px ******/
@@ -55,6 +60,11 @@
             padding: 37px 0;
         }
     }
+    .AnalyticsSection,
+    .AppSection,
+    .SellSection {
+        gap: 55px;
+    }
 }
 
 /****** TABLET (SMALL) - 376px --> 744px ******/
@@ -68,6 +78,11 @@
     }
     .TopContent {
         gap: 30px;
+    }
+    .AnalyticsSection,
+    .AppSection,
+    .SellSection {
+        gap: 55px;
     }
 }
 

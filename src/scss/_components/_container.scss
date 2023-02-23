@@ -4,7 +4,7 @@
 .MainContainer {
     display: flex;
     flex-direction: column;
-    overflow-x  : hidden !important;
+    gap: 40px;
     > * {
         display: flex;
     }
@@ -86,6 +86,30 @@
     }
 }
 
+.Info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px 0;
+}
+
+.PricingButton,
+.SellButton,
+.AppButton,
+.CTAButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    height: 60px;
+    width: 225.25px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: $DeepKoamaru;
+    @include CTAButtonTypography;
+}
+
 h2 {
     @include HeadingTwoTypography;
     color: $BrightGray;
@@ -103,12 +127,41 @@ h2 {
     color: $BrightGray;
 }
 
+.LeftSideContent,
+.RightSideContent {
+    flex: 1 1 0px;
+}
+
+.TestimonialSection {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.CTASection {
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .AnalyticsImg,
 .AppImg,
 .SellImg {
     margin: 20px 0;
     border-radius: 15px;
     background: linear-gradient(0deg, #31296433, #31296433);
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.AnalyticsSection,
+.AppSection,
+.SellSection {
+    align-items: center;
 }
 
 .AccentColor {

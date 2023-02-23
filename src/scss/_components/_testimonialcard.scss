@@ -1,0 +1,32 @@
+@use '../_partials/mixins' as *;
+@use '../_partials/variables' as *;
+
+.TestimonialImage {
+    position: relative;
+    transform: translateY(50%);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.TestimonialBody {
+    background: $CetaceanBlue;
+    border-radius: 25px;
+    padding: 50px;
+    .TestimonialQuote {
+        @include BodyTypography;
+        color: $BrightGray;
+        padding-top: 50px;
+        padding-bottom: 38.62px;
+    }
+    .TestimonialName {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $BrightGray;
+    }
+}
