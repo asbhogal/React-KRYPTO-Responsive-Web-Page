@@ -1,0 +1,69 @@
+@use '../_partials/variables' as *;
+@use '../_partials/mixins' as *;
+
+.Footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    > * {
+        display: flex;
+    }
+}
+
+.KryptoLogo {
+    height: 26px;
+}
+
+.NewsletterSignUpInput {
+    background: $Ceil;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    height: 50px;
+    width: 256.66px;
+    padding-left: 28.48px;
+    &::placeholder {
+        color: $RichBlack;
+        opacity: 1;
+    }
+}
+
+.FooterMenuTitle {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: lowercase;
+    color: $BrightGray;
+}
+
+.NewsletterSignUpButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    height: 50px;
+    width: 116.04px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: $DeepKoamaru;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: $BrightGray;
+}
+
+@for $i from 1 to 5 {
+    .FooterItem-#{$i} {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: $BrightGray;
+    }
+}
