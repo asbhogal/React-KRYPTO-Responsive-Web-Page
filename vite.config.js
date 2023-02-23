@@ -8,7 +8,6 @@ export default defineConfig ({
     root: 'src',
     build: {
         outDir: '../dist',
-        publicDir: './src/public'
     },
     resolve: {
         alias: {
