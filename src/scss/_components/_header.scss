@@ -16,6 +16,9 @@
             gap: 60px;
             display: flex;
             list-style-type: none;
+            li {
+                cursor: pointer;
+            }
         }
     }
     .CTAButton {
@@ -30,6 +33,7 @@
         border: none;
         background-color: $DeepKoamaru;
         @include CTAButtonTypography;
+        cursor: pointer;
         .AnimatedPulseFront {
             width: 10px;
             height: 10px;

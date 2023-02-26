@@ -15,6 +15,9 @@
     flex-direction: column;
     gap: 8px;
     list-style-type: none;
+    li {
+        cursor: pointer;
+    }
 }
 
 .NewsletterSignUp {
@@ -47,6 +50,7 @@
     height: 50px;
     width: 256.66px;
     padding-left: 28.48px;
+    cursor: pointer;
     &::placeholder {
         color: $RichBlack;
         opacity: 1;
@@ -81,6 +85,7 @@
     line-height: 16px;
     text-align: center;
     color: $BrightGray;
+    cursor: pointer;
 }
 
 @for $i from 1 to 5 {
